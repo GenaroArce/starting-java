@@ -6,9 +6,9 @@ class Main {
 	public static void main(String[] args) {
 		List<Integer> options_list = new ArrayList<>();
 		options_list.add(1);
-        options_list.add(2);
-        options_list.add(3);
-        options_list.add(4);
+        	options_list.add(2);
+        	options_list.add(3);
+        	options_list.add(4);
 
 		String options = "Opciones\n[1] Sumar\n[2] Restar\n[3] Multiplicar\n[4] Dividir";
 		System.out.println(options);
@@ -19,8 +19,8 @@ class Main {
 		Integer option = scanner.nextInt();
 
 		if (!options_list.contains(option)) {
-            System.out.println("Opcion no valida.");
-        } else {
+            		System.out.println("Opcion no valida.");
+        	} else {
 			System.out.println("Ingrese el primer numero: ");
 			Integer number1 = scanner.nextInt();
 	
